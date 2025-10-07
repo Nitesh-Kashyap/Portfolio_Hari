@@ -71,15 +71,19 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-      <p className="flex items-center justify-center text-sm text-gray-600 dark:text-gray-400 mt-4">
-            Made with <Heart className="w-4 h-4 mx-1 text-red-500" /> by Nitesh Kumar © 2025 · 
-            <a
-              href="mailto:nitesh.krjs@gmail.com"
-              className="ml-1 text-blue-600 dark:text-blue-400 hover:underline"
-            >
-              nitesh.krjs@gmail.com
-            </a>
-      </p>
+      <p className="flex flex-wrap items-center justify-center text-sm text-gray-600 dark:text-gray-400 mt-4 text-center">
+  <span className="flex items-center">
+    Made with <Heart className="w-4 h-4 mx-1 text-red-500" /> by Nitesh Kumar © 2025
+  </span>
+  <span className="mx-1">·</span>
+  <a
+    href="mailto:nitesh.krjs@gmail.com"
+    className="text-blue-600 dark:text-blue-400 hover:underline break-all"
+  >
+    nitesh.krjs@gmail.com
+  </a>
+</p>
+
 
       </div>
     </footer>
