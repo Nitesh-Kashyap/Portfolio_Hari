@@ -12,7 +12,7 @@ const Footer: React.FC = () => {
         <div className="grid md:grid-cols-3 gap-8 mb-8">
           {/* Brand */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">Nitesh Kumar</h3>
+            <h3 className="text-2xl font-bold mb-4">Harinath Ravi</h3>
             <p className="text-gray-400 leading-relaxed">
               Software Developer passionate about building scalable web applications 
               with Ruby on Rails and modern technologies.

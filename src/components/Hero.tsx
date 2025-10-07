@@ -20,8 +20,8 @@ const Hero: React.FC = () => {
               <div className="w-64 h-64 lg:w-80 lg:h-80 rounded-full bg-gradient-to-r from-blue-400 to-indigo-600 p-1 shadow-2xl">
                 <div className="w-full h-full rounded-full bg-gray-200 dark:bg-gray-700 flex items-center justify-center overflow-hidden">
                   <img
-                    src="/Nitesh_use.jpeg"
-                    alt="Nitesh Kumar"
+                    src="/ravi_use.jpeg"
+                    alt="Harinath Ravi"
                     className="w-full h-full object-cover rounded-full"
                   />
                 </div>
@@ -58,12 +58,13 @@ const Hero: React.FC = () => {
                 </button>
                 
                 <button
-                  onClick={() => window.location.href = '/Nitesh_Kumar_Resume(2025).pdf'}
+                  onClick={() => window.open('/harinath_ravi.pdf', '_blank')}
                   className="inline-flex items-center px-6 py-3 border-2 border-blue-600 dark:border-blue-400 text-blue-600 dark:text-blue-400 font-semibold rounded-lg hover:bg-blue-600 dark:hover:bg-blue-500 hover:text-white dark:hover:text-white transition-all duration-200 transform hover:-translate-y-1"
-                >
+                  >
                   <Download size={20} className="mr-2" />
                   Download CV
                 </button>
+
 
               </div>
               <div className="flex items-center justify-center lg:justify-start space-x-6 text-sm text-gray-600 dark:text-gray-400">
