@@ -71,18 +71,16 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        <div className="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400 flex items-center">
-            Made with <Heart className="w-4 h-4 mx-1 text-red-500" /> by Nitesh Kumar © 2025
-          </p>
-          
-          <button
-            onClick={scrollToTop}
-            className="mt-4 md:mt-0 w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-all duration-200 transform hover:-translate-y-1"
-          >
-            <ArrowUp className="w-5 h-5" />
-          </button>
-        </div>
+      <p className="flex items-center justify-center text-sm text-gray-600 dark:text-gray-400 mt-4">
+            Made with <Heart className="w-4 h-4 mx-1 text-red-500" /> by Nitesh Kumar © 2025 · 
+            <a
+              href="mailto:nitesh.krjs@gmail.com"
+              className="ml-1 text-blue-600 dark:text-blue-400 hover:underline"
+            >
+              nitesh.krjs@gmail.com
+            </a>
+      </p>
+
       </div>
     </footer>
   );
