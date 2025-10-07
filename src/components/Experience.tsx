@@ -1,5 +1,5 @@
 import React from 'react';
-import { Calendar, MapPin } from 'lucide-react';
+import { Calendar } from 'lucide-react';
 import { WorkExperience } from '../types';
 
 const Experience: React.FC = () => {
