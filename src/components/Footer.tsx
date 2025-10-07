@@ -45,14 +45,14 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="text-lg font-semibold mb-4">Get In Touch</h4>
             <div className="space-y-2 text-gray-400">
-              <p>nitesh.krjs@gmail.com</p>
-              <p>+91 87897 90170</p>
-              <p>India</p>
+              <p>harinathravi@outlook.com</p>
+              <p>+91 95500 97980</p>
+              <p>Hyderabad, India</p>
             </div>
             
             <div className="flex space-x-4 mt-6">
               <a
-                href="https://github.com/Nitesh-Kashyap/Nitesh-Kashyap"
+                href="https://github.com/ravi-harinath"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-gray-700 transition-all duration-200 transform hover:-translate-y-1"
@@ -60,7 +60,7 @@ const Footer: React.FC = () => {
                 <Github className="w-5 h-5" />
               </a>
               <a
-                href="#"
+                href="https://www.linkedin.com/in/harinathravi"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center hover:bg-blue-700 transition-all duration-200 transform hover:-translate-y-1"

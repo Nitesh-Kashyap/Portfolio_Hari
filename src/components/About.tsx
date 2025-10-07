@@ -42,7 +42,7 @@ const About: React.FC = () => {
               Professional Summary
             </h3>
             <p className="text-gray-600 dark:text-gray-300 leading-relaxed text-lg">
-              Experienced Software Developer with 3+ years of expertise in designing and building 
+              Experienced Software Developer with 4+ years of expertise in designing and building 
               scalable web applications. Skilled in Ruby on Rails, RESTful API development, backend 
               optimization, and third-party integrations.
             </p>
@@ -54,11 +54,11 @@ const About: React.FC = () => {
             <div className="grid grid-cols-2 gap-4 pt-6">
               <div>
                 <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Location</h4>
-                <p className="text-gray-600 dark:text-gray-300">India</p>
+                <p className="text-gray-600 dark:text-gray-300">Hyderabad, India</p>
               </div>
               <div>
                 <h4 className="font-semibold text-gray-900 dark:text-white mb-2">Email</h4>
-                <p className="text-gray-600 dark:text-gray-300">nitesh.krjs@gmail.com</p>
+                <p className="text-gray-600 dark:text-gray-300">raviharinath@outlook.com</p>
               </div>
             </div>
           </div>

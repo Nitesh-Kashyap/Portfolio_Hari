@@ -5,21 +5,21 @@ import { Project } from '../types';
 const Projects: React.FC = () => {
   const projects: Project[] = [
     {
-      title: "Restaurant & Gallery Management System",
+      title: "Weather App",
       description: "Comprehensive restaurant management platform with gallery features, admin dashboard, and nested forms for efficient content management.",
       techStack: ["Ruby on Rails", "PostgreSQL", "JWT", "Cocoon gem", "Active Storage"],
       features: [
-        "Restaurant menu management",
+        "Live weather scene",
         "Image gallery with Active Storage",
         "JWT authentication system",
         "Admin dashboard with role-based access",
         "Nested forms for complex data entry"
       ],
-      githubUrl: "https://github.com/Nitesh-Kashyap/restaurent-website",
+      githubUrl: "https://github.com/ravi-harinath/weather_app",
       liveUrl: "#"
     },
     {
-      title: "Online Payment & Subscription Platform",
+      title: "Online Payment",
       description: "Secure payment processing system with subscription management, invoice generation, and comprehensive admin features.",
       techStack: ["Ruby on Rails", "PostgreSQL", "Sidekiq", "Stripe API", "PayPal API"],
       features: [
@@ -29,11 +29,11 @@ const Projects: React.FC = () => {
         "PDF report downloads",
         "Role-based access control"
       ],
-      githubUrl: "https://github.com/Nitesh-Kashyap/auth-demo",
+      githubUrl: "https://github.com/ravi-harinath/challenges-api",
       liveUrl: "#"
     },
     {
-      title: "Photo Gallery API with React Frontend",
+      title: "Portfolio App",
       description: "Full-stack application featuring Rails API backend with React frontend for photo gallery management and user authentication.",
       techStack: ["Rails API", "React.js", "PostgreSQL", "JWT", "Active Storage"],
       features: [
@@ -43,7 +43,7 @@ const Projects: React.FC = () => {
         "RESTful API design",
         "Responsive React frontend"
       ],
-      githubUrl: "https://github.com/Nitesh-Kashyap/photo-gallery",
+      githubUrl: "https://github.com/ravi-harinath/my-portfolio",
       liveUrl: "#"
     }
   ];

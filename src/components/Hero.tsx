@@ -27,7 +27,7 @@ const Hero: React.FC = () => {
                 </div>
               </div>
               <div className="absolute -bottom-4 -right-4 w-20 h-20 bg-blue-600 dark:bg-blue-500 rounded-full flex items-center justify-center shadow-lg">
-                <span className="text-white text-2xl font-bold">NK</span>
+                <span className="text-white text-2xl font-bold">HR</span>
               </div>
             </div>
           </div>
@@ -38,7 +38,7 @@ const Hero: React.FC = () => {
               <div>
                 <h1 className="text-4xl lg:text-6xl font-bold text-gray-900 dark:text-white mb-4">
                   <span className="block">Hi, I'm</span>
-                  <span className="block text-blue-600 dark:text-blue-400">Nitesh Kumar</span>
+                  <span className="block text-blue-600 dark:text-blue-400">Harinath Ravi</span>
                 </h1>
                 <h2 className="text-2xl lg:text-3xl font-semibold text-gray-700 dark:text-gray-300 mb-4">
                   Software Developer
@@ -68,7 +68,7 @@ const Hero: React.FC = () => {
               </div>
               <div className="flex items-center justify-center lg:justify-start space-x-6 text-sm text-gray-600 dark:text-gray-400">
                 <div className="flex items-center">
-                  <span className="font-semibold">3+</span>
+                  <span className="font-semibold">4+</span>
                   <span className="ml-1">Years Experience</span>
                 </div>
                 <div className="flex items-center">

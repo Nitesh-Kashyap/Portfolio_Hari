@@ -59,10 +59,10 @@ const Contact: React.FC = () => {
                 <div>
                   <h4 className="font-semibold text-gray-900 dark:text-white">Email</h4>
                   <a 
-                    href="mailto:nitesh.krjs@gmail.com"
+                    href="mailto:raviharinath@outlook.com"
                     className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
                   >
-                    nitesh.krjs@gmail.com
+                    raviharinath@outlook.com
                   </a>
                 </div>
               </div>
@@ -74,10 +74,10 @@ const Contact: React.FC = () => {
                 <div>
                   <h4 className="font-semibold text-gray-900 dark:text-white">Phone</h4>
                   <a 
-                    href="tel:+918789790170"
+                    href="tel:+919550097980"
                     className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors duration-200"
                   >
-                    +91 87897 90170
+                    +91 9550097980
                   </a>
                 </div>
               </div>
@@ -88,7 +88,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold text-gray-900 dark:text-white">Location</h4>
-                  <p className="text-gray-600 dark:text-gray-300">India</p>
+                  <p className="text-gray-600 dark:text-gray-300">Hyderabad, India</p>
                 </div>
               </div>
             </div>
@@ -98,7 +98,7 @@ const Contact: React.FC = () => {
               <h4 className="font-semibold text-gray-900 dark:text-white mb-4">Connect with me</h4>
               <div className="flex space-x-4">
                 <a
-                  href="https://github.com/Nitesh-Kashyap/Nitesh-Kashyap"
+                  href="https://github.com/ravi-harinath"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-gray-900 dark:bg-gray-700 rounded-full flex items-center justify-center text-white hover:bg-gray-800 dark:hover:bg-gray-600 transition-all duration-200 transform hover:-translate-y-1"
@@ -106,7 +106,7 @@ const Contact: React.FC = () => {
                   <Github className="w-6 h-6" />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/nitesh-kashyap/"
+                  href="https://www.linkedin.com/in/harinathravi/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 bg-blue-600 dark:bg-blue-500 rounded-full flex items-center justify-center text-white hover:bg-blue-700 dark:hover:bg-blue-600 transition-all duration-200 transform hover:-translate-y-1"

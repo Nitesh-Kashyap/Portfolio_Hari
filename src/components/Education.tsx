@@ -23,10 +23,10 @@ const Education: React.FC = () => {
               
               <div className="flex-1">
                 <h3 className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
-                  Master of Computer Applications (MCA)
+                  ELECTRONICS AND COMMUNICATIONS ENGINEERING (B.E)
                 </h3>
                 <h4 className="text-lg font-semibold text-blue-600 dark:text-blue-400 mb-4">
-                  CMR Institute of Technology, Bangalore
+                  JNTU ANANTAPUR, INDIA - 2008 -2012 
                 </h4>
                 
                 <div className="flex flex-wrap gap-6 text-gray-600 dark:text-gray-300">
@@ -46,7 +46,7 @@ const Education: React.FC = () => {
                   </h5>
                   <div className="flex flex-wrap gap-2">
                     {[
-                      'Software Engineering',
+                      'Elect Engineering',
                       'Database Management',
                       'Web Technologies',
                       'Data Structures & Algorithms',

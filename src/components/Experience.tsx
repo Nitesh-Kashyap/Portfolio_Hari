@@ -5,9 +5,9 @@ import { WorkExperience } from '../types';
 const Experience: React.FC = () => {
   const experiences: WorkExperience[] = [
     {
-      company: "Stratosphere",
-      position: "Software Developer",
-      duration: "Mar 2024 – Present",
+      company: "Cloudraize IT Services",
+      position: "Ruby on Rails Developer",
+      duration: "Aug 2021 – Present",
       description: [
         "Built backend systems in Ruby on Rails with microservices architecture",
         "Implemented secure APIs with RBAC and JWT authentication",
@@ -16,9 +16,9 @@ const Experience: React.FC = () => {
       ]
     },
     {
-      company: "Sodel Solutions",
+      company: "Rank Technologies",
       position: "Software Developer",
-      duration: "Oct 2022 – Feb 2024",
+      duration: "March 2020 – July 2021",
       description: [
         "Developed product features using Rails and PostgreSQL",
         "Integrated third-party APIs (payment gateways, communication)",
@@ -27,24 +27,14 @@ const Experience: React.FC = () => {
       ]
     },
     {
-      company: "Axion Connect",
-      position: "Software Developer",
-      duration: "Dec 2021 – Oct 2022",
+      company: "Specvin Technologies",
+      position: "Oracle App Technical Consultant",
+      duration: "July 2018 – Feb 2020",
       description: [
-        "Developed finance and education web applications",
-        "Created reusable Rails services and components",
-        "Built test suites with RSpec & FactoryBot",
-        "Supported CI/CD automation"
-      ]
-    },
-    {
-      company: "Presto Infosolutions",
-      position: "Software Developer",
-      duration: "Aug 2021 – Dec 2021",
-      description: [
-        "Built internal tools and REST APIs in Rails",
-        "Performed CRUD operations with ActiveRecord",
-        "Collaborated with senior engineers to fix bugs and improve code quality"
+        "Develops and customizes Oracle Applications using reports, interfaces, conversions, and extensions",
+        "Collaborates with functional teams to translate business requirements into technical solutions",
+        "Ensures smooth integration and optimal performance of Oracle systems",
+        "Provides ongoing technical support, maintenance, and system enhancements"
       ]
     }
   ];
