@@ -60,6 +60,11 @@
     transform: translateX(0);
   }
 }
+.blurred {
+  filter: blur(20px);
+  transition: filter 0.3s ease;
+}
+
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {

@@ -1,36 +1,109 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Harinath Ravi - Experienced Software Developer with 4+ years in Ruby on Rails, RESTful APIs, and scalable web applications. Available for hire." />
-    <meta name="keywords" content="Harinath Ravi, Software Developer, Ruby on Rails, Web Development, PostgreSQL, API Development" />
-    <meta name="author" content="Harinath Ravi" />
-    
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="" />
-    <meta property="og:title" content="Harinath Ravi - Software Developer | Ruby on Rails Expert" />
-    <meta property="og:description" content="Experienced Software Developer with 4+ years in Ruby on Rails, RESTful APIs, and scalable web applications." />
-    <meta property="og:image" content="" />
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Harinath Ravi - Experienced Software Developer with 4+ years in Ruby on Rails, RESTful APIs, and scalable web applications. Available for hire." />
+  <meta name="keywords" content="Harinath Ravi, Software Developer, Ruby on Rails, Web Development, PostgreSQL, API Development" />
+  <meta name="author" content="Harinath Ravi" />
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Harinath Ravi - Software Developer | Ruby on Rails Expert" />
+  <meta property="og:description" content="Experienced Software Developer with 4+ years in Ruby on Rails, RESTful APIs, and scalable web applications." />
 
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="" />
-    <meta property="twitter:title" content="Harinath Ravi - Software Developer | Ruby on Rails Expert" />
-    <meta property="twitter:description" content="Experienced Software Developer with 4+ years in Ruby on Rails, RESTful APIs, and scalable web applications." />
-    <meta property="twitter:image" content="" />
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image" />
+  <meta property="twitter:title" content="Harinath Ravi - Software Developer | Ruby on Rails Expert" />
+  <meta property="twitter:description" content="Experienced Software Developer with 4+ years in Ruby on Rails, RESTful APIs, and scalable web applications." />
 
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    
-    <title>Harinath Ravi - Software Developer | Ruby on Rails Expert</title>
-  </head>
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-  </body>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <title>Harinath Ravi - Software Developer | Ruby on Rails Expert</title>
+
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+
+    body.blurred {
+      filter: blur(20px);
+      transition: filter 0.3s ease;
+    }
+
+    /* Watermark styling */
+    .watermark {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) rotate(-30deg);
+      font-size: 2rem;
+      color: rgba(255, 0, 0, 0.1);
+      pointer-events: none;
+      z-index: 9999;
+      white-space: nowrap;
+      user-select: none;
+    }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <div class="watermark" id="watermark">© Harinath Ravi</div>
+
+  <script type="module" src="/src/main.tsx"></script>
+
+  <script>
+    const watermark = document.getElementById('watermark');
+
+    // Function to randomly move the watermark
+    function moveWatermark() {
+      const vw = window.innerWidth;
+      const vh = window.innerHeight;
+      const x = Math.random() * (vw - 200); // avoid overflow
+      const y = Math.random() * (vh - 50);
+      watermark.style.left = x + 'px';
+      watermark.style.top = y + 'px';
+    }
+
+    // Move watermark every 2 seconds
+    setInterval(moveWatermark, 2000);
+
+    // Blur page when someone opens DevTools
+    let devtoolsOpen = false;
+    const threshold = 160;
+    setInterval(() => {
+      const widthThreshold = window.outerWidth - window.innerWidth > threshold;
+      const heightThreshold = window.outerHeight - window.innerHeight > threshold;
+      if (widthThreshold || heightThreshold) {
+        if (!devtoolsOpen) {
+          document.body.classList.add('blurred');
+          devtoolsOpen = true;
+        }
+      } else {
+        if (devtoolsOpen) {
+          document.body.classList.remove('blurred');
+          devtoolsOpen = false;
+        }
+      }
+    }, 500);
+
+    // Detect Print Screen key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'PrintScreen') {
+        document.body.classList.add('blurred');
+        alert('Screenshots are discouraged on this site.');
+        setTimeout(() => document.body.classList.remove('blurred'), 3000);
+      }
+    });
+
+    // Disable right-click
+    document.addEventListener('contextmenu', e => e.preventDefault());
+  </script>
+</body>
 </html>
