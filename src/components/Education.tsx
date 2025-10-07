@@ -32,11 +32,11 @@ const Education: React.FC = () => {
                 <div className="flex flex-wrap gap-6 text-gray-600 dark:text-gray-300">
                   <div className="flex items-center">
                     <Calendar size={16} className="mr-2" />
-                    <span>Graduated 2021</span>
+                    <span>Graduated 2012</span>
                   </div>
                   <div className="flex items-center">
                     <MapPin size={16} className="mr-2" />
-                    <span>Bangalore, India</span>
+                    <span>Anantapur, India</span>
                   </div>
                 </div>
 
