@@ -13,16 +13,16 @@ import Footer from './components/Footer';
 function App() {
   useEffect(() => {
     // Update page title and meta description
-    document.title = 'Nitesh Kumar - Software Developer | Ruby on Rails Expert';
+    document.title = 'Harinath Ravi - Software Developer | Ruby on Rails Expert';
     
     // Add meta description
     const metaDescription = document.querySelector('meta[name="description"]');
     if (metaDescription) {
-      metaDescription.setAttribute('content', 'Nitesh Kumar - Experienced Software Developer with 3+ years in Ruby on Rails, RESTful APIs, and scalable web applications. Available for hire.');
+      metaDescription.setAttribute('content', 'Harinath Ravi - Experienced Software Developer with 3+ years in Ruby on Rails, RESTful APIs, and scalable web applications. Available for hire.');
     } else {
       const meta = document.createElement('meta');
       meta.name = 'description';
-      meta.content = 'Nitesh Kumar - Experienced Software Developer with 3+ years in Ruby on Rails, RESTful APIs, and scalable web applications. Available for hire.';
+      meta.content = 'Harinath Ravi - Experienced Software Developer with 3+ years in Ruby on Rails, RESTful APIs, and scalable web applications. Available for hire.';
       document.head.appendChild(meta);
     }
 
